@@ -31,3 +31,5 @@ Stop when you reach the step of clicking on "Apply" after creating your AWS Site
 Congratulations you just simulated deploying your AWS Site via the Distributed Cloud Console.  If you like you can complete
 running the simulator to deploy an Azure Site and create an HTTP Load Balancer.  In the next Lab Exercise we will
 be creating Load Balancer resources in the "Live" lab environment.
+
+
