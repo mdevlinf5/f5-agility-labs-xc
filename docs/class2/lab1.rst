@@ -122,7 +122,6 @@ Task 2: Configure WAF Policy on the Load Balancer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following steps will guide you through adding a Web Application Firewall (WAF) Policy.
-
 These steps will demonstrate various aspects of the configuration.
 
 +----------------------------------------------------------------------------------------------+
@@ -131,8 +130,6 @@ These steps will demonstrate various aspects of the configuration.
 |    **Web Application Firewall (WAF)** and select **Enable**.                                 |
 +----------------------------------------------------------------------------------------------+
 | |lab012|                                                                                     |
-|                                                                                              |
-|                                                                                              |
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
@@ -148,7 +145,6 @@ These steps will demonstrate various aspects of the configuration.
 
 +----------------------------------------------------------------------------------------------+
 | 3. In the resulting window's **Metadata** section enter **<namespace>-appfw** for the        |
-|                                                                                              |
 |    **Name**.                                                                                 |
 |                                                                                              |
 | 4. Under **Enforcement Mode**, change the mode to **Blocking**.                              |
@@ -217,7 +213,6 @@ These steps will demonstrate various aspects of the configuration.
 +----------------------------------------------------------------------------------------------+
 | 13. Click **JSON** in the horizontal navigation at the top of the screen.                    |
 |                                                                                              |
-|                                                                                              |
 | .. note::                                                                                    |
 |    *The JSON payload (or YAML format, from dropdown) provides the entire Load Balancer*      |
 |                                                                                              |
@@ -275,9 +270,9 @@ review the generated event data to make additional configuration changes.
 +----------------------------------------------------------------------------------------------+
 | 4a. Returning to the F5 Distributed Cloud Console, use the left-hand menu to select          |
 |                                                                                              |
-|    **Overview** > **Perfromance Dashboard** section.  This dashboard will give you a summary |
+|     **Overview** > **Perfromance Dashboard** section.  This dashboard will give you a summary|
 |                                                                                              |
-|    view for all of the configured Load Balancers.                                            |
+|     view for all of the configured Load Balancers.                                           |
 |                                                                                              |
 | .. note::                                                                                    |
 |    *As you have not run many requests, summary analytics may not be available in the*        |
@@ -285,15 +280,11 @@ review the generated event data to make additional configuration changes.
 |    *dashboard view yet.*                                                                     |
 |                                                                                              |
 | 4b. Scroll to the bottom and select your load balancer.                                      |
-|                                                                                              |
 +----------------------------------------------------------------------------------------------+
 | |lab027a|                                                                                    |
 |                                                                                              |
 | |lab027b|                                                                                    |
 +----------------------------------------------------------------------------------------------+
-
-
-
 
 +----------------------------------------------------------------------------------------------+
 | 5. From the **Dashboard** view, using the horizontal navigation, click **Requests**.         |
@@ -309,9 +300,6 @@ review the generated event data to make additional configuration changes.
 +----------------------------------------------------------------------------------------------+
 | |lab028|                                                                                     |
 +----------------------------------------------------------------------------------------------+
-
-
-
 
 +----------------------------------------------------------------------------------------------+
 | 7. Expand one of the requests and noted on the **Information** link that summary request     |
